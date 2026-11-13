@@ -1,0 +1,81 @@
+{
+"@context": "http://iiif.io/api/presentation/2/context.json",
+"@id": "https://user.github.io/repository/manifest.json",
+"@type": "sc:Manifest",
+"label": "Тестовый документ",
+"sequences": [
+{
+"@id": "https://user.github.io/repository/sequence/default",
+"@type": "sc:Sequence",
+"label": "Порядок страниц",
+"canvases": [
+{
+"@id": "https://user.github.io/repository/canvas/p1",
+"@type": "sc:Canvas",
+"label": "Страница 1",
+"width": 1200,
+"height": 1800,
+"images": [
+{
+"@id": "https://user.github.io/repository/annotation/p1",
+"@type": "oa:Annotation",
+"motivation": "sc:painting",
+"on": "https://user.github.io/repository/canvas/p1",
+"resource": {
+"@id": "https://user.github.io/repository/images/page1.jpg",
+"@type": "dctypes:Image",
+"format": "image/jpeg",
+"width": 1200,
+"height": 1800
+}
+}
+]
+},
+{
+"@id": "https://user.github.io/repository/canvas/p2",
+"@type": "sc:Canvas",
+"label": "Страница 2",
+"width": 1200,
+"height": 1800,
+"images": [
+{
+"@id": "https://user.github.io/repository/annotation/p2",
+"@type": "oa:Annotation",
+"motivation": "sc:painting",
+"on": "https://user.github.io/repository/canvas/p2",
+"resource": {
+"@id": "https://user.github.io/repository/images/page2.jpg",
+"@type": "dctypes:Image",
+"format": "image/jpeg",
+"width": 1200,
+"height": 1800
+}
+}
+]
+},
+{
+"@id": "https://user.github.io/repository/canvas/p3",
+"@type": "sc:Canvas",
+"label": "Страница 3",
+"width": 1200,
+"height": 1800,
+"images": [
+{
+"@id": "https://user.github.io/repository/annotation/p3",
+"@type": "oa:Annotation",
+"motivation": "sc:painting",
+"on": "https://user.github.io/repository/canvas/p3",
+"resource": {
+"@id": "https://user.github.io/repository/images/page3.jpg",
+"@type": "dctypes:Image",
+"format": "image/jpeg",
+"width": 1200,
+"height": 1800
+}
+}
+]
+}
+]
+}
+]
+}
